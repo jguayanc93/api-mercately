@@ -1,0 +1,14 @@
+node_modules/
+
+# Credenciales: NUNCA al repositorio. El servidor lleva su propio .env.
+.env
+.env.*
+!.env.example
+
+# Los logs los escribe PM2, pero la carpeta tiene que existir en el repo.
+logs/*
+!logs/.gitkeep
+*.log
+
+data/
+.DS_Store
